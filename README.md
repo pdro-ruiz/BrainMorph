@@ -1,7 +1,3 @@
-Aquí tienes el archivo `README.md` actualizado y adaptado con la nueva información proporcionada, manteniendo el estilo profesional, técnico y motivador establecido previamente, con **negritas** y *cursivas* para enfatizar puntos clave. He integrado los detalles del nuevo texto, como las técnicas avanzadas de aumento de datos (*cGAN*, *ProGAN*, *StyleGAN*), el estado actual del proyecto y los próximos pasos, asegurándome de que refleje el progreso y la visión de **BrainMorph** según el EDA y tus indicaciones.
-
----
-
 # **BrainMorph**  
 ## *Plataforma de Análisis Avanzado de Imágenes Médicas para la Detección Temprana de Tumores Cerebrales*
 
