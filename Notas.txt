@@ -1,0 +1,2 @@
+Benchmarking: Sería interesante que probaras tu sistema contra baselines establecidos (por ejemplo, U-Net para segmentación o CNN clásicas para clasificación) usando el mismo dataset. Esto te daría una idea clara de cuánto valor añaden tus módulos personalizados.
+Explicabilidad: Los radiólogos suelen necesitar entender por qué un modelo toma una decisión. Podrías integrar herramientas como mapas de activación (CAM) o SHAP para mostrar qué regiones de la imagen influyen en el diagnóstico.

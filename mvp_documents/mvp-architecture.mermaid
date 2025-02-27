@@ -1,0 +1,69 @@
+flowchart TD
+    subgraph "Frontend"
+        UI[Interfaz de Usuario]
+        Dashboard[Dashboard Médico]
+        VisualizationTools[Herramientas de Visualización]
+        FeedbackSystem[Sistema de Retroalimentación]
+    end
+    
+    subgraph "Backend"
+        API[API REST]
+        Auth[Autenticación y Autorización]
+        DataManagement[Gestión de Datos]
+    end
+    
+    subgraph "Módulos Core"
+        direction LR
+        LoadModule[Módulo de Carga]
+        PreprocessModule[Módulo de Preprocesamiento]
+        AugmentationModule[Módulo de Aumento de Datos]
+        AnalysisModule[Módulo de Análisis]
+        
+        subgraph "Submódulos de Análisis"
+            Detection[Detección de Patologías]
+            Segmentation[Segmentación]
+            Classification[Clasificación]
+        end
+        
+        subgraph "Submódulos de Aumento"
+            Traditional[Técnicas Tradicionales]
+            Advanced[Técnicas Avanzadas]
+            QualityMetrics[Métricas de Calidad]
+        end
+    end
+    
+    subgraph "Almacenamiento"
+        ImageDB[(Base de Datos de Imágenes)]
+        ModelDB[(Base de Datos de Modelos)]
+        SyntheticDB[(Datos Sintéticos)]
+        ResultsDB[(Resultados y Análisis)]
+    end
+    
+    UI --> API
+    Dashboard --> API
+    VisualizationTools --> API
+    FeedbackSystem --> API
+    
+    API --> Auth
+    API --> DataManagement
+    
+    DataManagement --> LoadModule
+    LoadModule --> PreprocessModule
+    PreprocessModule --> AugmentationModule
+    PreprocessModule --> AnalysisModule
+    AugmentationModule --> AnalysisModule
+    
+    AnalysisModule --> Detection
+    AnalysisModule --> Segmentation
+    AnalysisModule --> Classification
+    
+    AugmentationModule --> Traditional
+    AugmentationModule --> Advanced
+    AugmentationModule --> QualityMetrics
+    
+    LoadModule <--> ImageDB
+    AnalysisModule <--> ModelDB
+    AugmentationModule <--> SyntheticDB
+    AnalysisModule --> ResultsDB
+    
+    ResultsDB --> Dashboard

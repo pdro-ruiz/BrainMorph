@@ -1,0 +1,29 @@
+gantt
+    title Roadmap de Desarrollo MedVisionAI
+    dateFormat YYYY-MM-DD
+    axisFormat %m/%y
+    
+    section Fase 1 (1-3 meses)
+    Selección y preprocesamiento de datasets        :f1_data, 2025-03-01, 30d
+    Desarrollo módulo de aumento de datos           :f1_augmentation, after f1_data, 30d
+    Implementación técnicas tradicionales           :f1_trad, 2025-03-15, 15d
+    Implementación técnicas avanzadas               :f1_adv, after f1_trad, 20d
+    Evaluación calidad datos sintéticos             :f1_eval, after f1_adv, 10d
+    Prototipo básico de interfaz de usuario         :f1_ui, 2025-04-15, 30d
+    
+    section Fase 2 (3-4 meses)
+    Entrenamiento de modelos con datos aumentados   :f2_train, after f1_eval, 45d
+    Desarrollo del backend y API                    :f2_backend, after f1_ui, 30d
+    Desarrollo módulo de detección                  :f2_detect, after f2_train, 20d
+    Desarrollo módulo de segmentación               :f2_segment, after f2_detect, 20d
+    Desarrollo módulo de clasificación              :f2_class, after f2_segment, 20d
+    Integración de módulos básicos                  :f2_integ, after f2_backend, 30d
+    Pruebas de integración                          :f2_test, after f2_integ, 15d
+    
+    section Fase 3 (2-3 meses)
+    Refinamiento de la interfaz de usuario          :f3_ui, after f2_test, 30d
+    Optimización de rendimiento                     :f3_opt, after f2_test, 20d
+    Pruebas de usabilidad con médicos               :f3_usability, after f3_ui, 20d
+    Iteración basada en retroalimentación           :f3_iteration, after f3_usability, 15d
+    Documentación técnica                           :f3_doc, after f3_iteration, 15d
+    Preparación para presentación a inversores      :f3_investor, after f3_doc, 15d
