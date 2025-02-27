@@ -1,6 +1,6 @@
 Hola, Jordi y compis! 
 
-...Estaba pensando que la próxima vez, dependiendo de como ante de tiempo, igual os grabo un vídeo con la presentación del trabajo :P
+...Estaba pensando que la próxima vez, dependiendo de como ande de tiempo, igual os grabo un vídeo con la presentación del trabajo :P
 
 Hoy quiero mostrar mi proyecto **BrainMorph**, algo en lo que he estado trabajando para clase y que me tiene súper motivado.
 
