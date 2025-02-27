@@ -32,4 +32,4 @@ Puse una **Licencia Propietaria** (© 2025 Pedro Ismael Ruiz Larrú). Pueden usa
 
 ¿Qué os parece? ¡Me gustaría saber qué opináis! 
 
-Gracias.
+Gracias a tod@s.
