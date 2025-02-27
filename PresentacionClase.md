@@ -30,7 +30,7 @@ Puse una **Licencia Propietaria** (© 2025 Pedro Ismael Ruiz Larrú). Pueden usa
 
 **BrainMorph** ha comenzado como un ejercicio, pero ahora lo veo como algo que podría ayudar a detectar tumores más rápido. Limpié datos, los hice crecer con IA y dejé todo listo para que esto no se quede en papel. 
 
-A la derecha podeis ver la estructura, y revisar el README y el EDA, donde he realizado y documentado todo el proceso.
+A la derecha podeis ver la estructura, y revisar el README y el EDA, donde he realizado y documentado todo el proceso (los modelos grandes no me ha dado tiempo a entrenarlos, pero son 100% funcionales).
 
 ¿Qué os parece? ¡Me gustaría saber qué opináis! 
 
