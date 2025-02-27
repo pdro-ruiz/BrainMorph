@@ -11,7 +11,7 @@ Aquí tienes el archivo `README.md` actualizado y adaptado con la nueva informac
 
 **BrainMorph** es una plataforma *innovadora* diseñada para revolucionar el análisis y procesamiento de imágenes médicas, con un enfoque inicial en la **detección temprana de tumores cerebrales** mediante imágenes de resonancia magnética (*MRI*). En su primera fase, hemos desarrollado un *Notebook* que utiliza fuentes de datos *MRI* accesibles para implementar técnicas de **clasificación automática** y **análisis morfológico**, respaldado por un pipeline riguroso de limpieza y generación de datos sintéticos con inteligencia artificial avanzada.  
 
-A diferencia de enfoques convencionales, nuestro sistema combina *aprendizaje profundo* con un análisis detallado de características físicas (*tamaño*, *forma*, *intensidad*), ofreciendo insights clínicos valiosos. En fases futuras, integraremos tomografías por emisión de positrones (*PET*) para ampliar el alcance a afecciones derivadas de inflamación o desplazamiento de la masa encefálica. Este trabajo sienta las bases para una solución **escalable**, con impacto directo en el diagnóstico temprano y un fuerte atractivo para hospitales, clínicas e *inversionistas*.
+A diferencia de enfoques convencionales, nuestro sistema combina *aprendizaje profundo* con un análisis detallado de características físicas (*tamaño*, *forma*, *intensidad*), ofreciendo insights clínicos valiosos. En fases futuras, integraremos tomografías por emisión de positrones (*PET*) para ampliar el alcance a afecciones derivadas de inflamación o desplazamiento de la masa encefálica. Este trabajo sienta las bases para una solución **escalable**, con impacto directo en el diagnóstico temprano y un fuerte atractivo para hospitales, clínicas e *inversores*.
 
 ## **Técnicas de Aumento de Datos**
 
@@ -28,7 +28,7 @@ La escasez de datos médicos etiquetados es un desafío crítico en neuroimagen.
 - **StyleGAN:** Separación de contenido y estilo, generando variaciones *realistas* que aumentan la diversidad sin perder utilidad clínica.  
 - **Modelos de Difusión Avanzados:** Refinamiento continuo para imágenes complejas, adaptadas a necesidades clínicas específicas.
 
-Estas técnicas no solo amplían nuestro dataset —alcanzando **500 imágenes sintéticas por categoría**—, sino que lo enriquecen con diversidad controlada, fortaleciendo la capacidad de generalización de nuestros modelos. Esto posiciona a **BrainMorph** como una solución *confiable* para entornos clínicos y un proyecto atractivo para *inversionistas*.
+Estas técnicas no solo amplían nuestro dataset —alcanzando **500 imágenes sintéticas por categoría**—, sino que lo enriquecen con diversidad controlada, fortaleciendo la capacidad de generalización de nuestros modelos. Esto posiciona a **BrainMorph** como una solución *confiable* para entornos clínicos y un proyecto atractivo para *inversores*.
 
 ## **Estado Actual del Proyecto**
 
@@ -74,42 +74,6 @@ Nuestra hoja de ruta incluye:
 - **Expansión del Aumento:** Técnicas adaptadas a inflamación y tumores raros.  
 
 Estos avances consolidarán a **BrainMorph** como una solución *integral*, lista para clínicas y financiación significativa.
-
-## **Instalación**
-
-```bash
-# Clonar el repositorio
-git clone https://github.com/tuorganizacion/brainmorph.git
-cd brainmorph
-
-# Crear entorno virtual
-python -m venv venv
-source venv/bin/activate  # En Windows: venv\Scripts\activate
-
-# Instalar dependencias
-pip install -r requirements.txt
-
-# Ejecutar el Notebook
-jupyter notebook notebooks/EDA.ipynb
-```
-
-## **Estructura del Proyecto**
-
-```
-brainmorph/
-├── data/
-│   ├── raw/            # Imágenes MRI originales
-│   ├── preprocessed/   # Imágenes verificadas
-│   └── processed/      # Datos aumentados (traditional, gan, diffusion)
-├── img/                # Imágenes para README
-├── notebooks/          # EDA.ipynb y experimentación
-├── trazabilidad/       # CSVs de auditoría
-├── app/                # Futura aplicación
-├── tests/              # Tests futuros
-├── .gitignore
-├── requirements.txt
-└── README.md
-```
 
 ## **Contacto**
 
