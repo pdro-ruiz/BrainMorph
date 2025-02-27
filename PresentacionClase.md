@@ -26,7 +26,7 @@ No me quedé solo en los datos; pensé en cómo esto podría llegar a ser útil 
 - Faltaría meterle imágenes *PET*, mejorar los modelos y sacar una interfaz fácil de usar.  
 - En “BrainMorph: Revolucionando el Diagnóstico” hablo del problema (pocos datos, diagnósticos lentos) y cómo lo resuelvo con IA y un negocio que podría llegar a $6M en tres años.  
 
-Puse una **Licencia Propietaria** (© 2025 Pedro Ismael Ruiz Larrú). Pueden usarlo para estudiar o probar, pero si alguien quiere cambiarlo o comercializarlo, tiene que hablar conmigo primero. Así protejo mi trabajo.
+Puse una **Licencia Propietaria** (© 2025 Pedro Ismael Ruiz Larrú). Podeis usarlo para estudiar o probarlo, pero si alguien quiere cambiarlo o comercializarlo, tendría que hablar conmigo primero. De esta forma protejo el trabajo.
 
 **BrainMorph** ha comenzado como un ejercicio, pero ahora lo veo como algo que podría ayudar a detectar tumores más rápido. Limpié datos, los hice crecer con IA y dejé todo listo para que esto no se quede en papel. 
 
